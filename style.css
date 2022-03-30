@@ -1,0 +1,1551 @@
+@font-face{
+    font-family: regular;
+    src: url(./fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face{
+    font-family: raleway;
+    src: url(./fonts/Raleway/static/Raleway-Light.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: regular;
+    font-size: 12px;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.header-ul{
+    background-color: rgb(233, 171, 56);
+    list-style: none;
+    display: none;
+    position: absolute;
+    right: 0em;
+    font-size: 8px;
+    padding: 0;
+    
+}
+
+header .header-menu .button:hover{
+    background-color: white;
+    color: rgb(232, 160, 26);
+}
+
+.right-left{
+    display: none;
+}
+
+.bars{
+    margin-right: 20px;
+}
+
+.happy-clients .happy-p{
+    display: none;
+}
+
+@media (min-width: 320px){
+    .header-menu{
+        display: none;
+    }
+
+    .popular .big-scr{
+        display: none;
+    }
+    
+}
+
+.left-left{
+    display: none;
+    
+}
+
+.left-right{
+    display: none;
+}
+
+.bars:hover .header-ul{
+    display: block;
+}
+
+.header-ul li{
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.header-ul li:hover:not(.activ){
+    text-decoration: black underline;
+    color: white;
+}
+
+.activ{
+    background-color: rgb(240, 165, 25);
+}
+
+.color{
+    color: rgb(232, 160, 26);
+}
+
+.hotel-h1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-decoration: underline;
+}
+.hotel-h1 .orange{
+    color: rgb(232, 160, 26);
+    text-decoration: underline rgb(232, 160, 26);
+}
+
+.dream p{
+    color: rgb(232, 160, 26);
+    margin-left: 60px;
+    margin-top: 50px;
+    
+}
+
+.find{
+    margin: 12px;
+    font-family: raleway;
+}
+
+.gapper{
+    display: none;
+}
+
+.wait{
+    font-size: 20px;
+    line-height: .7;
+    margin: 12px;
+}
+
+.image .roofed{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.icon {
+    width: 300px;
+    border-radius: 25px;
+    padding: 15px 0px 15px 17px;
+    box-shadow: 0px 0px 0px 1px rgb(233, 229, 229),1px 4px 0px  rgba(245, 225, 225, 0.1), 1px 6px 20px  rgb(205, 226, 226);
+    border: none;
+    outline: none;
+    background-color: white;
+    position: relative;
+    margin: 10px;
+    
+}
+
+.icon .input[placeholder]{
+    font-size: 10px;  
+}
+
+.icon .input{
+   width: 70px;
+   border: none;
+   outline: none;
+}
+
+.chevron{
+    position: absolute;
+    bottom: 0.3em;
+    left: 21.3em;
+}
+
+.chevron1{
+    background-color: rgb(232, 160, 26);
+    padding: 15px 17px;
+    border-radius: 100%;
+    color: white;
+    
+    
+}
+
+.divide{
+    font-weight: 900;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+
+.globe {
+    font-size: 12px;
+    
+}
+
+.icon .input2{
+    width: 77px;
+    font-size: 8px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+}
+
+.icon ul{
+    list-style: none;
+    font-size: 10px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    font-family: raleway;
+    display: none;
+    position: absolute;
+    left: 20em;
+    
+}
+
+.icon li{
+    padding: 3px;
+    
+}
+
+.icon li:hover{
+    font-family: monospace;
+    background-color: white;
+    color: black;
+}
+
+.icon .drop-arrow:hover .drops {
+    display: block;
+}
+
+.top{
+    font-size: 8px;
+}
+
+.top p{
+    margin: 12px;
+}
+
+.social{
+    display: flex;
+    
+}
+
+.social img{
+    width: 30px;
+    height: 10px; 
+    margin-left: 30px;
+}
+
+.popular{
+    text-align: center;
+}
+
+
+.popular p{
+    font-family: raleway;
+    line-height: .4;
+}
+
+.border img{
+    width: 280px;
+    height: 200px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.border .bord{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+    width: 280px;
+    border-radius: 0px 0px 6px 6px;
+    
+}
+
+.bord p{
+    font-family: raleway;
+}
+
+.quo-ri{
+    background-color: white;
+    color: rgb(232, 160, 26);
+    font-size: 22px;
+    padding: 15px 17px;
+    border-radius: 100%;
+    box-shadow: 1px 4px 8px  rgba(245, 225, 225, 0.1), 1px 6px 20px  rgb(205, 226, 226);
+    position: relative;
+    left: 9em;
+    bottom: 2em;
+    
+}
+
+.fa{
+    background-color: rgb(232, 160, 26);
+    padding: 6px 8px;
+    border-radius: 100%;
+    color: white;
+    display: none;
+}
+.fam{
+    display: none;
+}
+
+
+.rivers{
+    margin-left: 20px;
+    position: relative;
+}
+
+.rivers img{
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.riv-2{
+    border-radius: 6px 6px 0px 0px;
+}
+
+.how{
+    text-align: center;
+}
+
+.hows{
+    text-align: center;
+}
+
+.how-child{
+    color: rgb(232, 160, 26);
+    font-size: 17px;
+    margin-top: 60px;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.sign-up p{
+    font-family: raleway;
+    font-weight: 500;
+}
+
+.sear{
+    text-align: center;
+}
+
+.sear1{
+    font-size: 17px;
+    color: rgb(232, 160, 26);
+    margin-top: 30px;
+}
+
+.search-hot{
+    text-align: center;
+}
+
+.search-hot p{
+    font-family: raleway;
+    font-weight: 500px;
+}
+
+.travel{
+    text-align: center;
+}
+
+.travel1{
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(232, 160, 26);
+}
+
+.travelling{
+    text-align: center;
+}
+
+.travelling p{
+    font-family: raleway;
+    font-weight: 500;
+}
+
+.choose{
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+.choose h1{
+    font-size: 25px;
+    line-height: .5;
+}
+
+.choose p{
+    line-height: .5;
+}
+
+.lux{
+    background-color: rgb(67, 50, 50);
+    color: white;
+    width: 210px;
+    padding: 12px;
+    position: absolute;
+    top: 20em;
+    left: 2em;
+}
+
+
+.lux p{
+    line-height: .5;
+    font-size: 10px;
+    font-family: raleway;
+    font-weight: 100;
+}
+
+.lux span{
+    background-color: white;
+    padding: 8px;
+    color: rgb(232, 160, 26);
+}
+
+.bedrooms{
+    position: relative;
+    margin-left: 30px;
+}
+
+.bedrooms img{
+    margin-top: 20px;
+}
+
+.notified{
+    margin-top: 90px;
+    background-color: rgb(228, 238, 242);
+    padding: 12px;
+   
+}
+
+.trail input[placeholder]{
+    font-size: 8px;
+}
+
+.trail{
+    background-color: white;
+    width: 200px;
+    box-shadow: 1px 4px 8px  rgba(255, 255, 255, 0.1), 1px 6px 20px  rgb(105, 230, 230);
+    padding: 6px 0px 6px 6px;
+    border-radius: 17px;
+    margin-left: 50px;
+}
+
+.trail input{
+    border: none;
+    outline: none;
+}
+.notified h3{
+    text-align: center;
+    line-height: .6;
+}
+.trail button{
+    border: none;
+    outline: none;
+    background-color: rgb(232, 160, 26);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.robin{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.happy-clients{
+    text-align: center;
+    line-height: .5;
+    margin-top: 90px;
+}
+
+.robin-face img{
+    border-radius: 100%;
+}
+
+.robin-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.robin-feed{
+    line-height: .5;
+}
+
+
+.john{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.john-face img{
+    border-radius: 100%;
+}
+
+.john-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.john-feed{
+    line-height: .5;
+    
+}
+
+.smith{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.smith-face img{
+    border-radius: 100%;
+}
+
+.smith-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.smith-feed{
+    line-height: .5;
+    
+}
+
+footer{
+    background-color: rgb(228, 238, 242);
+    margin-top: 130px;
+    padding: 0px 20px 6px 20px;
+    position: relative;
+}
+
+.con-us{
+    background-color: black;
+    color: white;
+    width: 230px;
+    padding: 6px;
+    position: relative;
+    bottom: 4em;
+    left: 2.3em;
+}
+
+.con-us a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.con-us h3{
+    text-align: center;
+}
+.con-us .mail{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hotelmania-footer{
+    text-align: center;
+}
+.hotelmania-footer h3 span{
+    text-decoration: rgb(232, 160, 26) underline;
+}
+.hotelmania-footer h3{
+    text-decoration: black underline;
+}
+
+.lists-footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lists-footer p{
+    line-height: .7;
+}
+
+.social-logos{
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.social-logos span{
+    margin-left: 20px;
+}
+
+.footer-text{
+    font-size: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+@media (min-width: 375px){
+
+    header .header-menu{
+        display: none;
+    }
+
+    
+    .image .roofed{
+        width: 375px;
+    }
+
+    .icon{
+        width: 375px;
+    }
+
+    .chevron{
+        position: absolute;
+        left: 27.5em;
+    }
+
+    .social{
+        margin-left: 20px;
+    }
+
+    .rivers{
+        margin-left: 50px;
+    }
+
+    .choose{
+        margin-left: 100px;
+    }
+
+    .bedrooms{
+        margin-left: 60px;
+    }
+
+    .trail{
+        margin-left: 75px;
+    }
+
+    .con-us{
+        position: relative;
+        left: 4.3em;
+    }
+}
+
+@media (min-width: 425px){
+    body{
+        overflow-x: hidden;
+    }
+
+    header .header-menu{
+        display: none;
+    }
+
+    
+    .wait{
+        font-size: 25px;
+    }
+
+    .image .roofed{
+        width: 390px;
+        margin: 10px;
+    }
+
+    .icon{
+        width: 390px;
+        margin: 10px;
+    }
+
+    .chevron{
+        position: absolute;
+        left: 28.6em;
+    }
+
+    .icon .divide {
+        margin-left: 80px;
+    }
+
+    .icon ul{
+        position: absolute;
+        left: 25em;
+    }
+
+    .social{
+        margin-left: 10px;
+    }
+
+    .social img{
+        margin-left: 40px;
+    }
+
+    .rivers img{
+        width: 330px;
+    }
+
+    .rivers .bord{
+        width: 330px;
+    }
+
+    .bord .quo-ri{
+        position: relative;
+        left: 11em;
+    }
+
+    .sign-up p{
+        font-size: 15px;
+    }
+
+    .search-hot p{
+        font-size: 15px;
+    }
+
+    .travelling p{
+        font-size: 15px;
+    }
+
+    .choose{
+        margin-left: 120px;
+    }
+
+    .bedrooms img{
+        width: 330px;
+        
+    }
+
+    .bedrooms{
+        margin-left: 50px;
+    }
+
+    .lux{
+        position: absolute;
+        left: 5em;
+    }
+
+    .notified .trail{
+        margin-left: 100px;
+    }
+
+    .con-us{
+        position: relative;
+        left: 6em;
+    }
+
+    footer .footer-text{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    .dream{
+        font-size: 17px;
+    }
+
+    header .header-menu{
+        display: none;
+    }
+
+    
+
+    .wait{
+        font-size: 42px;
+    }
+
+    .find{
+        font-size: 17px;
+        line-height: .5;
+    }
+
+    .image .roofed{
+        width: 730px;
+        height: 400px;
+    }
+
+    .icon{
+        width: 730px;
+    }
+
+    .icon .divide{
+        margin-left: 15em;
+    }
+
+    .icon .chevron{
+        position: absolute;
+        left: 57em;
+    }
+
+    .icon ul{
+        position: absolute;
+        left: 40em;
+        padding: 17px;
+    }
+
+    .social img{
+        margin-left: 80px;
+        width: 50px;
+        height: 20px;
+    }
+
+    .popular{
+        font-size: 18px;
+    }
+
+    .rivers .enlarge{
+        width: 650px;
+        height: 400px;
+    }
+
+    .rivers .bord{
+        width: 650px;
+        text-align: center;
+    }
+
+    .how{
+        font-size: 20px;
+    }
+
+    .all-signing{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        margin-top: 100px;
+    }
+
+    .all-signing p{
+        font-size: 10px;
+    }
+
+    .hows{
+        position: relative;
+        bottom: 8em;
+        left: 10em;
+    }
+
+    .sear{
+        position: relative;
+        bottom: 5em;
+        left: 11em;
+    }
+
+    .travel{
+        position: relative;
+        bottom: 5em;
+        left: 10em;
+    }
+
+    .fam{
+        display: block;
+        position: relative;
+        bottom: 10em;
+        font-size: 6px;
+        padding: 4px;
+        left: 20em;
+    }
+
+    .choose{
+        display: flex;
+        
+    }
+    .choose .gap{
+        margin-left: 60px;
+    }
+
+    .choose h1{
+        font-size: 30px;
+    }
+
+    .bedrooms .lux{
+        position: absolute;
+        left: 19em;
+    }
+
+    .notified{
+        font-size: 35px;
+    }
+
+    .notified .trail {
+        width: 400px;
+        border-radius: 30px;
+        padding: 0;
+        padding-left: 12px;
+    }
+
+    .notified .trail input[placeholder]{
+        font-size: 12px;
+    }
+
+    .trail input{
+        margin-bottom: 20px;
+        
+    }
+
+    .notified .trail button{
+        padding: 16px;
+        border-radius: 22px;
+        margin-left: 125px;
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .notified .trail{
+        margin-left: 170px;
+    }
+      
+    .happy-clients{
+       font-size: 17px;
+    }
+
+    .profiles{
+       display: flex;
+       justify-content: space-around;
+    }
+
+    .profiles p{
+       font-size: 10px;
+    }
+
+    footer .con-us{
+        width: 600px;
+    }
+
+    .popular .big-scr{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px){
+   
+    header{
+        margin-left: 40px;
+    }
+    header .bars{
+        display: none;
+    }
+
+    header .hotel-h1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    header .header-menu{
+        display: flex;
+        gap: 3em;
+        margin-right: 22em;
+        margin-top: 40px;
+        font-family: raleway;
+    }
+
+    header .header-menu .button{
+        background-color: rgb(232, 160, 26);
+        padding: 15px 20px;
+        border-radius: 20px;
+        color: white;
+        font-size: 10px;
+        
+    }
+
+    header .header-menu .button1{
+        position: relative;
+        left: 18em;
+        bottom: 3em;
+    }
+
+    .dream p{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .wait{
+        font-size: 25px;
+    }
+
+    .find{
+        font-size: 15px;
+    }
+
+    .image .roofed{
+        width: 520px;
+        height: 500px;
+    }
+   
+    .double-group{
+        display: flex;
+        margin-left: 40px;
+    }
+
+    .icon{
+        width: 500px;
+        
+    }
+
+    .icon .divide{
+        position: relative;
+        right: 10em;
+    }
+
+    .icon .globe{
+        position: relative;
+        right: 12em;
+    }
+
+    .icon .input2{
+        position: relative;
+        right: 18em;
+    }
+
+    .icon .drop-arrow{
+        position: relative;
+        right: 12em;
+    }
+
+    .icon ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .chevron1{
+        position: absolute;
+        right: 16em;
+        bottom: 0;
+    }
+
+    .chev{
+        position: relative;
+        bottom: 13em;
+        margin-left: 40px;
+    }
+
+    .top{
+        font-size: 10px;
+        
+    }
+
+    .top .top2{
+        font-size: 30px;
+        position: relative;
+        top: 1rem;
+    }
+
+    .social img{
+        margin: 0px 40px 30px 90px;
+        
+    }
+
+    .popular{
+        font-size: 30px;
+    }
+
+    .popular .big-scr{
+        font-size: 15px; 
+        display: block;
+    }
+
+    .popular .small-scr {
+        display: none;
+    }
+
+    .rivers{
+        display: flex;
+        margin-left: 80px;
+    
+    }
+
+    .rivers .enlarge{
+        width: 330px;
+        height: 200px;
+    }
+
+    .rivers .bord{
+        width: 330px;
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: justify;
+        height: 150px;
+    }
+
+    .rivers .bord h4{
+       position: relative;
+       bottom: 4em;
+    }
+
+    .rivers .bord p{
+        position: relative;
+        bottom: 4em;
+     }
+
+    .rivers img{
+        width: 330px;
+        margin-right: 20px;
+    }
+
+    .rivers .bord .direct{
+        font-size: 20px;
+    }
+
+    .rivers .riv-22{
+        width: 273px;
+        border-radius: 6px 0px 0px 0px;
+    }
+
+    .right-left{
+        display: flex;
+        position: absolute;
+        left: 36em;
+        margin-top: 40px;
+    }
+
+    .right-left .ice-color{
+        background-color: rgb(233, 229, 229);
+        color: black;
+    }
+
+    .right-left span{
+        margin-left: 20px;
+        background-color: rgb(232, 160, 26);
+        padding: 17px;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .how{
+        margin-top: 150px;
+        font-size: 30px;
+    }
+
+    .all-signing p{
+        font-size: 12px;
+    }
+
+    .all-signing .margin-push{
+        margin-right: 30px;
+    }
+
+    .all-signing h2{
+        font-size: 23px;
+    }
+
+    .all-signing .fa{
+        margin-left: 60px;
+    }
+
+    .all-signing .mar-push{
+        position: relative;
+        left: 3em;
+        
+    }
+
+    .sear1{
+        margin-top: 70px;
+    }
+
+    .fam .fa-2{
+        margin-top: 30px;
+    }
+
+    .search-hot{
+        margin-top: 50px;
+    }
+
+    .travel{
+        margin-top: 100px;
+    }
+
+    .fam .fa-3{
+        margin-top: 90px;
+    }
+
+    .travelling{
+        margin-top: 100px;
+    }
+
+    .choose .gap{
+        display: none;
+    }
+
+    .choose .gapper{
+        display: block;
+        margin-top: 20px;
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+    .choose span h1{
+        font-size: 30px;
+    }
+
+    .bedrooms {
+        display: flex;
+    }
+
+    .bedrooms img{
+        width: 250px;
+        margin-left: 20px;
+        border-radius: 6px;
+    }
+
+    .bedrooms .bedroom-last{
+        width: 144px;
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    .bedrooms .lux{
+        position: absolute;
+        left: 37em;
+        top: 6em;
+    }
+
+    .notified .trail{
+        margin-left: 8.6em;
+    }
+
+    .notified{
+        margin-top: 5em;
+    }
+
+    .left-right{
+        display: flex;
+        position: absolute;
+        left: 65em;
+        margin-top: 40px;
+    }
+
+    .left-right .ice-color{
+        background-color: rgb(233, 229, 229);
+        color: black;
+    }
+
+    .left-right span{
+        margin-left: 20px;
+        background-color: rgb(232, 160, 26);
+        padding: 17px;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .left-left{
+        display: flex;
+        position: absolute;
+        left: 35em;
+        margin-top: 40px;
+    }
+
+    .left-left .ice-color{
+        background-color: rgb(233, 229, 229);
+        color: black;
+    }
+
+    .left-left span{
+        margin-left: 20px;
+        background-color: rgb(232, 160, 26);
+        padding: 17px;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .profiles h3{
+        font-size: 20px;
+    }
+
+    .profiles p{
+        font-size: 15px;
+    }
+
+    .profiles{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .con-us{
+        width: 820px;
+        font-size: 15px;
+        padding-bottom: 30px;
+        margin-top: 17em;
+    }
+
+    footer .con-us h3{
+        font-size: 35px;
+    }
+
+    footer .footer-dis{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+
+    footer .hotelmania-footer{
+        text-align: justify;
+    }
+
+    footer .lists-footer{
+        display: flex;
+        gap: 5em;
+        position: relative;
+        bottom: 4em;
+        
+    }
+
+    .rtl:hover{
+        background-color: rgb(233, 229, 229);
+        color: rgb(232, 160, 26);
+    }
+
+    .lists-footer p{
+        line-height: 2;
+    }
+
+    footer .footer-text{
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 1366px){
+    header h3{
+        font-size: 20px;
+    }
+
+    header .header-menu h4{
+        margin-right: 40px;
+    }
+
+    header .header-menu {
+        margin-right: 25em;
+    }
+
+    .dream p{
+        font-size: 15px;
+    }
+
+    .wait{
+        font-size: 40px;
+        line-height: .5;
+    }
+
+    .find{
+        font-size: 20px;
+    }
+
+    .image .roofed{
+        width: 600px;
+        height: 600px;
+    }
+
+    .icon{
+        width: 700px;
+        height: 56px;
+        border-radius: 30px;
+    }
+
+    .icon .divide{
+        margin-left: 10em;
+        font-size: 20px;
+    }
+
+    .icon .input[placeholder]{
+        font-size: 15px;
+    }
+
+    .icon .input{
+        width: 200px;
+    }
+
+    .icon .glass{
+        font-size: 20px;
+    }
+
+    .icon .input2{
+        font-size: 12px;
+        width: 200px;
+        margin-left: 2em;
+    }
+
+    .icon .globe{
+        font-size: 20px;
+        position: relative;
+        right: 10em;
+    }
+
+    .icon .drop-arrow{
+        position: relative;
+        left: 33em;
+        z-index: 1;
+        bottom: 1.3em;
+    }
+
+    .icon .chevron{
+        position: relative;
+        left: 15em;
+        
+    }
+
+    .top{
+        font-size: 12px;
+    }
+
+    .chev{
+        position: relative;
+        bottom: 12em;
+    }
+
+    .social img{
+        margin-left: 140px;
+    }
+
+    .rivers img{
+        width: 450px;
+        height: 300px;
+    }
+
+    .rivers .border img{
+        width: 450px;
+        height: 300px;
+    }
+
+    .rivers .riv-22{
+        width: 350px;
+    }
+
+    .rivers .bord{
+        width: 450px;
+        height: 250px;
+        font-size: 15px;
+        padding: 40px;
+    }
+
+    .rivers .bord .quo-ri{
+        font-size: 30px;
+        padding: 20px 22px;
+        position: relative;
+        bottom: 2.5em;
+    }
+
+    .right-left span{
+        font-size: 20px;
+        position: relative;
+        left: 7em;
+    }
+
+    
+
+    .margin-push{
+        font-size: 15px;
+    }
+
+    .margin-push p{
+        font-size: 17px;
+    }
+
+    .fa{
+        position: relative;
+        left: 14em;
+    }
+
+    .all-signing .mar-push{
+        position: relative;
+        left: 7em;
+    }
+
+    .choose span h1{
+        font-size: 55px;
+    }
+
+    .choose .gapper{
+        font-size: 15px;
+        margin-top: 60px;
+    }
+
+    .bedrooms img{
+        width: 350px;
+        height: 400px;
+    }
+
+    .bedrooms .bedroom-last{
+        width: 200px;
+    }
+
+    .bedrooms .lux{
+        font-size: 17.5px;
+        
+    }
+
+    .notified{
+        margin-top: 5em;
+    }
+
+    .notified .trail{
+        margin-left: 13.3em;
+    }
+
+    .happy-clients{
+        font-size: 25px;
+    }
+
+    .happy-clients .happyp{
+        display: none;
+    }
+
+    .happy-clients .happy-p{
+        display: block;
+        font-size: 15px;
+    }
+
+    footer .con-us{
+        width: 1000px;
+        position: relative;
+        left: 10em;
+        bottom: 8em;
+        margin-top: 23em;
+    }
+
+    .left-right{
+        display: flex;
+        position: absolute;
+        left: 90em;
+        margin-top: 40px;
+    }
+
+    .left-right .ice-color{
+        background-color: rgb(233, 229, 229);
+        color: black;
+    }
+
+    .left-right span{
+        margin-left: 20px;
+        background-color: rgb(232, 160, 26);
+        padding: 17px;
+        color: white;
+        border-radius: 7px;
+    }
+
+    .left-left{
+        display: flex;
+        position: absolute;
+        left: 50em;
+        margin-top: 40px;
+    }
+
+    .left-left .ice-color{
+        background-color: rgb(233, 229, 229);
+        color: black;
+    }
+
+    .left-left span{
+        margin-left: 20px;
+        background-color: rgb(232, 160, 26);
+        padding: 17px;
+        color: white;
+        border-radius: 7px;
+    }
+}
+
+
+
+
+
